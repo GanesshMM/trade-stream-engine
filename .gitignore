@@ -1,0 +1,113 @@
+####################################
+# Java / Spring Boot
+####################################
+*.class
+*.log
+*.ctxt
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+
+####################################
+# Spring Boot specific
+####################################
+*.pid
+*.pid.lock
+
+####################################
+# Spring Batch
+####################################
+spring-batch-schema.sql
+batch-job*.log
+
+####################################
+# PostgreSQL
+####################################
+*.sql
+*.dump
+*.bak
+*.backup
+*.pgdump
+
+####################################
+# Environment / Secrets
+####################################
+.env
+.env.*
+application-*.yml
+application-*.properties
+!application-example.yml
+
+####################################
+# Node.js / Angular
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Angular build output
+dist/
+out-tsc/
+.angular/
+
+####################################
+# Logs
+####################################
+logs/
+*.log
+
+####################################
+# OS specific
+####################################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+####################################
+# IDEs / Editors
+####################################
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+.history/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+####################################
+# Temporary / Cache
+####################################
+tmp/
+temp/
+.cache/
+*.swp
+*.swo
+
+####################################
+# Docker (optional – uncomment if used)
+####################################
+# docker-compose.override.yml
+# *.env.docker
